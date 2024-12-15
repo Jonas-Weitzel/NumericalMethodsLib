@@ -3,7 +3,11 @@ uuid = "41029cfa-f945-46e8-b59a-da2a32c7f585"
 authors = ["Git-User-JW <112542731+Git-User-JW@users.noreply.github.com> and contributors"]
 version = "1.0.0-DEV"
 
+[deps]
+Integrals = "de52edbc-65ea-441a-8357-d3a637375a31"
+
 [compat]
+Integrals = "4.5.0"
 julia = "1.11"
 
 [extras]
