@@ -17,3 +17,7 @@ end
 function FS_synthesis(an_vec, bn_vec, p)
     f(x) = an_vec[1]/2 + sum( an_vec[n+1]*cos((2*pi*n/p)*x) + bn_vec[n+1]*sin((2*pi*n/p)*x) for n in range(1, length(bn_vec)-1) )
 end
+
+function foo(x)
+    a = 1
+end
